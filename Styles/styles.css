@@ -79,7 +79,6 @@ body {
 
 .button:hover {
     background: #0056b3;
-    border-color: #0f110c;
     color:white;
 }
 
@@ -94,7 +93,7 @@ body {
     top: 0;
     left: 0;
     width: 20px;
-    height: 750px;
+    height: 780px;
     background: white;
     flex-direction: column;
     align-items: center;
@@ -450,6 +449,7 @@ main.container {
 .text button:focus {
     background-color: #fb8500;
     border-color: sienna;
+    color: white;
 }
 
 
@@ -472,11 +472,11 @@ main.container {
 .photos > img {
     border: 10px solid #ffffff;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
-    border-radius: 15px; /* Unified border-radius */
+    border-radius: 15px;
     width: 33%;
     height: 300px;
     object-fit: cover;
-    transition: transform 0.3s ease-in-out;
+    transition: transform 0.5s ease-in-out;
 }
 
 .photos > .place1 {
@@ -561,14 +561,8 @@ main.container {
     background-image: url(../Images/imgSection3.jpg);
     background-size: cover;
     background-position: center;
-}
-
-.s3-right > .imgSection3 {
-    width: 100%;
-    max-width: 400px;
-    height: 800px;
     border-radius: 20px;
-    margin-top: 500px;
+
 }
 
 .m1, .m2, .m3 {
@@ -648,7 +642,7 @@ footer p {
     bottom:40px;
     right: 10px;
     z-index: 1;
-
+    
 }
 
 
